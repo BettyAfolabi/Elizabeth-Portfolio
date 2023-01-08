@@ -1,3 +1,3 @@
 # Portfolio
-ElizabethAfolabi Portfolio
+Elizabeth Afolabi Portfolio
  
