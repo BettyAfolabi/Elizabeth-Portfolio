@@ -363,12 +363,12 @@ article-2 {
     margin: 0 auto;
   }
 
-  #projects img {
+  .image {
     grid-column: 1/6;
     grid-row: 1/2;
   }
 
-  #projects article-2 img {
+  article-2 .image {
     grid-column: 6/11;
     grid-row: 1/2;
   }
