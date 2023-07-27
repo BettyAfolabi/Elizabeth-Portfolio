@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&amp;display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
@@ -35,20 +36,21 @@
     <div class="section-blue">
       <section id="About">
         <h2>About Elizabeth</h2>
-        <article>
-            <div class="text">
-                <h3>Just the highlights</h3>
-                <p class="blackbox ab">
+        <div class="only-About ">
+          <div class="text-about">
+             <h3>Just the highlights</h3>
+              <p class="blackbox ab">
                   Hi there! My name is Elizabeth Afolabi and i'm a junior Front-end Developer. I started my tech journey with a free bootcamp on web development at Frontend Masters, after which I practiced what i've learnt with various projects. I then joined HerTechTrail Foundation for the web development pro track and the journey has been educative and fun. I'm currently looking for an internship position and ways to contribute to open source projects. I'm glad I made the decision. Be on the lookout for my mind-blowing designs.
-                </p>
-            </div>
-            <img src="Assets/Images/about pic.jpeg" alt="A picture of Betty" style="height: 550px;"/>
-        </article>
-
-        <h3>My Crochet Passion</h3>
-        <p>And when I'm not coding, you'll find me in front of a movie with my crochet hook and a ball of yarn making magic <span style='font-size:50px;'>&#10024;</span></p>
-        <img src="Assets/Images/CrochetBeanie.jpg" alt="Crocheted Beanie made by Betty." style="width:500px ; height:400px;">
-
+              </p>
+          </div>
+          <img src="Assets/Images/about pic.jpeg" alt="A picture of Betty" id="betty"/>
+        </div>
+  
+          <h3>My Crochet Passion</h3>
+          <p>And when I'm not coding, you'll find me in front of a movie with my crochet hook and a ball of yarn making magic <span style='font-size:40px;'>&#10024;</span></p>
+          <div id="Passion">
+            <img src="Assets/Images/CrochetBeanie.jpg" alt="Crocheted Beanie made by Betty." id="beanie">
+          </div>
       </section>
     </div>
         
@@ -63,5 +65,6 @@
       </ul>
       <p> &copyright; 2023 Betty. All rights reserved.</p>
     </footer>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
