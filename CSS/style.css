@@ -98,6 +98,7 @@ section {
 .home p {
   font-size: 1rem;
   line-height: 1.5;
+  width: 65%;
 }
 
 .home .name {
@@ -220,20 +221,6 @@ nav.sticky {
   padding: 12px 15%;
 }
 
-/*nav::before, nav::after{
-    content: '';
-    position: absolute;
-    height: 60px;
-    bottom: -70px;
-    right: 0;
-    left: 0;
-    background: var(--black);
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
-    -o-transform: skewY(-3deg);
-}*/
 .button {
   background-color: var(--mandarin);
   padding: 5px;
@@ -284,10 +271,6 @@ footer ul {
   padding: 4rem 1rem;
 }
 
-article-2 {
-  padding-bottom: 4rem;
-}
-
 #projects h2 {
   font-size: 2rem;
   margin-bottom: calc(2.5rem * 1.5);
@@ -330,7 +313,7 @@ article-2 {
 }
 
 #projects img {
-  margin: 2rem 0 4rem 0;
+  margin: 1rem 0 2rem 0;
   border-left: 2px solid var(--mandarin);
   border-top: 2px solid var(--mandarin);
   border-radius: 1.5rem;
@@ -343,6 +326,7 @@ article-2 {
 
 #projects article-2 img {
   width: 100%;
+  margin-bottom: 5rem;
 }
 
 @media (min-width:850px) {
@@ -378,6 +362,7 @@ article-2 {
     grid-row: 1/2;
     order: 2;
     text-align: right;
+    margin-top: 2rem;
   }
 
   .text-2 {
@@ -385,6 +370,7 @@ article-2 {
     grid-row: 1/2;
     text-align: left;
     order: 2;
+    margin-top: 2rem;
   }
 
   #projects ul {
